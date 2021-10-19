@@ -1,0 +1,1 @@
+This directory contains the schema files. They are not meant to be edited.

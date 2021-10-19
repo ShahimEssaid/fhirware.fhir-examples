@@ -1,0 +1,71 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"json.schemas": [
+			{
+				"fileMatch": [
+					"/4.0.1-resources/*.json",
+					"/4.0.1-resources/*/*.json"
+				],
+				"url": "./schemas/4.0.1/resource.json"
+			},
+			{
+				"fileMatch": [
+					"/4.0.1-structures/*.json",
+					"/4.0.1-structures/*/*.json"
+				],
+				"url": "./schemas/4.0.1/structure.json"
+			},
+			{
+				"fileMatch": [
+					"/4.6.0-resources/*.json",
+					"/4.6.0-resources/*/*.json"
+				],
+				"url": "./schemas/4.6.0/resource.json"
+			},
+			{
+				"fileMatch": [
+					"/4.6.0-structures/*.json",
+					"/4.6.0-structures/*/*.json"
+				],
+				"url": "./schemas/4.6.0/structure.json"
+			}
+		],
+		"yaml.customTags": [],
+		"yaml.schemas": {
+			"./schemas/4.0.1/resource.json": [
+				"/4.0.1-resources/*.yaml",
+				"/4.0.1-resources/*/*.yaml"
+			],
+			"./schemas/4.0.1/structure.json": [
+				"/4.0.1-structures/*.yaml",
+				"/4.0.1-structures/*/*.yaml"
+			],
+			"./schemas/4.6.0/resource.json": [
+				"/4.6.0-resources/*.yaml",
+				"/4.6.0-resources/*/*.yaml"
+			],
+			"./schemas/4.6.0/structure.json": [
+				"/4.6.0-structures/*.yaml",
+				"/4.6.0-structures/*/*.yaml"
+			]
+		},
+		"xml.fileAssociations": [
+			{
+				"pattern": "4.0.1-resources/*.xml",
+				"systemId": "schemas/4.0.1/resource.xsd"
+			},
+			{
+				"pattern": "4.0.1-structures/*.xml",
+				"systemId": "schemas/4.0.1/structure.xsd"
+			}
+		],
+		"xml.server.vmargs": "-Xmx2048M",
+		"xml.symbols.maxItemsComputed": 500000,
+		"json.maxItemsComputed": 50000
+	}
+}

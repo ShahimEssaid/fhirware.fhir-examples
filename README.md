@@ -1,4 +1,4 @@
-# [Also see this README.md](examples/README.md)
+# Also see [this README.md](examples/README.md)
 
 # Introduction
 

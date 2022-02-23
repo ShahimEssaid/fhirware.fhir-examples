@@ -30,7 +30,7 @@ This is the top directory for your example subdirectories.
     * _R4.0.1.*
     * _R5.2022.02.22.*
 * Use the resource format to create proper FHIR resource examples that you can copy as is to post to a FHIR server.  The example format is useful for creating multiple examples in one file, giving titles and descriptions for each, exploring FHIR structures other than resources, etc.
-
+* If you install the "YAML ❤️ JSON" VS Code extension, you will be able to convert between Yaml and JSON. This might help with writing files in Yaml for better readability but still be able to convert to JSON to submit to a FHIR server.
 
 
 # The **Example** schema

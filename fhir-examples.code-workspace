@@ -17,7 +17,6 @@
 				"fileMatch": [
 					"/examples/**/*_example_R4.0.1.json",
 					"/examples/**/*_example_R4.json"
-					
 				],
 				"url": "./schemas/4.0.1/example.json"
 			},
@@ -26,14 +25,14 @@
 					"/examples/**/*_resource_R5.2022.02.22.json",
 					"/examples/**/*_resource_R5.json"
 				],
-				"url": "./schemas/5_2022.02.22/resource.json"
+				"url": "./schemas/5.2022.02.22/resource.json"
 			},
 			{
 				"fileMatch": [
 					"/examples/**/*_example_R5.2022.02.22.json",
 					"/examples/**/*_example_R5.json"
 				],
-				"url": "./schemas/5_2022.02.22/example.json"
+				"url": "./schemas/5.2022.02.22/example.json"
 			}
 		],
 		"yaml.customTags": [],
@@ -46,17 +45,15 @@
 				"/examples/**/*_example_R4.0.1.yaml",
 				"/examples/**/*_example_R4.yaml"
 			],
-			"./schemas/5_2022.02.22/resource.json": [
+			"./schemas/5.2022.02.22/resource.json": [
 				"/examples/**/*_resource_R5.2022.02.22.yaml",
 				"/examples/**/*_resource_R5.yaml"
 			],
-			"./schemas/5_2022.02.22/example.json": [
+			"./schemas/5.2022.02.22/example.json": [
 				"/examples/**/*_example_R5.2022.02.22.yaml",
 				"/examples/**/*_example_R5.yaml"
 			]
 		},
-
-		
 		"json.maxItemsComputed": 50000,
 		"editor.tabSize": 2
 	}

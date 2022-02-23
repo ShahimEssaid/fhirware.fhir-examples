@@ -55,6 +55,8 @@
 			]
 		},
 		"json.maxItemsComputed": 50000,
-		"editor.tabSize": 2
+		"editor.tabSize": 2,
+		"editor.detectIndentation": false
+	
 	}
 }

@@ -19,5 +19,3 @@ codeableConceptDemo:
       - code: "123"
         display: One two three
     text: One two three
-
-      

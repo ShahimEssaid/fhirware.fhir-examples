@@ -8,43 +8,29 @@
 		"json.schemas": [
 			{
 				"fileMatch": [
-					"/4.0.1-resources/*.json",
-					"/4.0.1-resources/*/*.json"
+					"/examples/**/*_resource_R4.0.1.json",
+					"/examples/**/*_resource_R4.json"
 				],
 				"url": "./schemas/4.0.1/resource.json"
 			},
 			{
 				"fileMatch": [
-					"/4.0.1-examples/*.json",
-					"/4.0.1-examples/*/*.json"
+					"/examples/**/*_example_R4.0.1.json",
+					"/examples/**/*_example_R4.json"
 				],
 				"url": "./schemas/4.0.1/example.json"
 			},
 			{
 				"fileMatch": [
-					"/4.6.0-resources/*.json",
-					"/4.6.0-resources/*/*.json"
-				],
-				"url": "./schemas/4.6.0/resource.json"
-			},
-			{
-				"fileMatch": [
-					"/4.6.0-examples/*.json",
-					"/4.6.0-examples/*/*.json"
-				],
-				"url": "./schemas/4.6.0/example.json"
-			},
-			{
-				"fileMatch": [
-					"/5.build-resources/*.json",
-					"/5.build-resources/*/*.json"
+					"/examples/**/*_resource_R5.2022.02.22.json",
+					"/examples/**/*_resource_R5.json"
 				],
 				"url": "./schemas/5_2022.02.22/resource.json"
 			},
 			{
 				"fileMatch": [
-					"/5.build-examples/*.json",
-					"/5.build-examples/*/*.json"
+					"/examples/**/*_example_R5.2022.02.22.json",
+					"/examples/**/*_example_R5.json"
 				],
 				"url": "./schemas/5_2022.02.22/example.json"
 			}
@@ -52,28 +38,20 @@
 		"yaml.customTags": [],
 		"yaml.schemas": {
 			"./schemas/4.0.1/resource.json": [
-				"/4.0.1-resources/*.yaml",
-				"/4.0.1-resources/*/*.yaml"
+				"/examples/**/*_resource_R4.0.1.yaml",
+				"/examples/**/*_resource_R4.yaml"
 			],
 			"./schemas/4.0.1/example.json": [
-				"/4.0.1-examples/*.yaml",
-				"/4.0.1-examples/*/*.yaml"
-			],
-			"./schemas/4.6.0/resource.json": [
-				"/4.6.0-resources/*.yaml",
-				"/4.6.0-resources/*/*.yaml"
-			],
-			"./schemas/4.6.0/example.json": [
-				"/4.6.0-examples/*.yaml",
-				"/4.6.0-examples/*/*.yaml"
+				"/examples/**/*_example_R4.0.1.yaml",
+				"/examples/**/*_example_R4.yaml"
 			],
 			"./schemas/5_2022.02.22/resource.json": [
-				"/5.build-resources/*.yaml",
-				"/5.build-resources/*/*.yaml"
+				"/examples/**/*_resource_R5.2022.02.22.yaml",
+				"/examples/**/*_resource_R5.yaml"
 			],
 			"./schemas/5_2022.02.22/example.json": [
-				"/5.build-examples/*.yaml",
-				"/5.build-examples/*/*.yaml"
+				"/examples/**/*_example_R5.2022.02.22.yaml",
+				"/examples/**/*_example_R5.yaml"
 			]
 		},
 		"xml.fileAssociations": [
@@ -88,6 +66,7 @@
 		],
 		"xml.server.vmargs": "-Xmx2048M",
 		"xml.symbols.maxItemsComputed": 500000,
-		"json.maxItemsComputed": 50000
+		"json.maxItemsComputed": 50000,
+		"editor.tabSize": 2
 	}
 }

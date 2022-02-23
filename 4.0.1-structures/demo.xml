@@ -1,7 +1,0 @@
-<CodeableConcept xmlns="http://hl7.org/fhir">
-    <coding>
-        <code value="123" />
-        <display value="One two three" />
-    </coding>
-    <text value="One two three" />
-</CodeableConcept>

@@ -1,3 +1,19 @@
+# Introduction
+
+The goal of this project is to support creating FHIR-based data structures for learning and prototyping purposes. The setup in this project allows a user to prototype their data needs while also getting IDE support for auto completion and validation. This approach is a bottom up approach where use cases are demonstrated by examples without the need to setup a full IG project to accomplish the same goals.
+
+The examples created with this setup can either be proper FHIR Resource instances (based on the official FHIR schemas) or other arbitrary FHIR structures used by those Resource instances (i.e. data types, backbone elements, etc.). 
+
+For now, this project is only configured for use with [Visual Studio Code (VSC)](https://code.visualstudio.com/).
+
+This project is still WIP and is likely to be buggy at times until it's been tested by end users. Please create issues at [the GitHub repository](https://github.com/ShahimEssaid/fhirware.fhir-examples) if you notice any problems or have enhancement ideas.
+
+# Getting started
+
+* Install Visual Studio Code and add the YAML extension from Red Hat.
+
+* Use File -> Open Workspace... to open the `fhir-examples.code-workspace` workspace file at the root of the repository.
+
 # Some minimal documentation
 
 This is the top directory for your example subdirectories. 
@@ -13,6 +29,7 @@ This is the top directory for your example subdirectories.
 * The "R4" and "R5" parts of a file name mean the latest available schema for R4 or R5.  For R4, it is currently 4.0.1 and for R5 it is the build from 2/22/2022.  If you like to pin your files to the more specific version/date, add the following full file name suffix instead of simply R4 or R5:
     * _R4.0.1.*
     * _R5.2022.02.22.*
+* Use the resource format to create proper FHIR resource examples that you can copy as is to post to a FHIR server.  The example format is useful for creating multiple examples in one file, giving titles and descriptions for each, exploring FHIR structures other than resources, etc.
 
 
 

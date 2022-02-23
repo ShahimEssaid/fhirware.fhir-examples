@@ -7,8 +7,3 @@ tmp-*.yaml
 temp-*.yaml
 _tmp-*.yaml
 _temp-*.yaml
-
-tmp-*.xml
-temp-*.xml
-_tmp-*.xml
-_temp-*.xml

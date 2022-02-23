@@ -17,6 +17,7 @@
 				"fileMatch": [
 					"/examples/**/*_example_R4.0.1.json",
 					"/examples/**/*_example_R4.json"
+					
 				],
 				"url": "./schemas/4.0.1/example.json"
 			},
@@ -54,18 +55,8 @@
 				"/examples/**/*_example_R5.yaml"
 			]
 		},
-		"xml.fileAssociations": [
-			{
-				"pattern": "4.0.1-resources/*.xml",
-				"systemId": "schemas/4.0.1/resource.xsd"
-			},
-			{
-				"pattern": "4.0.1-structures/*.xml",
-				"systemId": "schemas/4.0.1/structure.xsd"
-			}
-		],
-		"xml.server.vmargs": "-Xmx2048M",
-		"xml.symbols.maxItemsComputed": 500000,
+
+		
 		"json.maxItemsComputed": 50000,
 		"editor.tabSize": 2
 	}

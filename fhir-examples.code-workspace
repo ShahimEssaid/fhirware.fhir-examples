@@ -8,29 +8,29 @@
 		"json.schemas": [
 			{
 				"fileMatch": [
-					"/examples/**/*_resource_R4.0.1.json",
-					"/examples/**/*_resource_R4.json"
+					"/examples/**/*_resource_R4.0.1*.json",
+					"/examples/**/*_resource_R4*.json"
 				],
 				"url": "./schemas/4.0.1/resource.json"
 			},
 			{
 				"fileMatch": [
-					"/examples/**/*_example_R4.0.1.json",
-					"/examples/**/*_example_R4.json"
+					"/examples/**/*_example_R4.0.1*.json",
+					"/examples/**/*_example_R4*.json"
 				],
 				"url": "./schemas/4.0.1/example.json"
 			},
 			{
 				"fileMatch": [
-					"/examples/**/*_resource_R5.2022.02.22.json",
-					"/examples/**/*_resource_R5.json"
+					"/examples/**/*_resource_R5.2022.02.22*.json",
+					"/examples/**/*_resource_R5*.json"
 				],
 				"url": "./schemas/5.2022.02.22/resource.json"
 			},
 			{
 				"fileMatch": [
-					"/examples/**/*_example_R5.2022.02.22.json",
-					"/examples/**/*_example_R5.json"
+					"/examples/**/*_example_R5.2022.02.22*.json",
+					"/examples/**/*_example_R5*.json"
 				],
 				"url": "./schemas/5.2022.02.22/example.json"
 			}
@@ -38,20 +38,20 @@
 		"yaml.customTags": [],
 		"yaml.schemas": {
 			"./schemas/4.0.1/resource.json": [
-				"/examples/**/*_resource_R4.0.1.yaml",
-				"/examples/**/*_resource_R4.yaml"
+				"/examples/**/*_resource_R4.0.1*.yaml",
+				"/examples/**/*_resource_R4*.yaml"
 			],
 			"./schemas/4.0.1/example.json": [
-				"/examples/**/*_example_R4.0.1.yaml",
-				"/examples/**/*_example_R4.yaml"
+				"/examples/**/*_example_R4.0.1*.yaml",
+				"/examples/**/*_example_R4*.yaml"
 			],
 			"./schemas/5.2022.02.22/resource.json": [
-				"/examples/**/*_resource_R5.2022.02.22.yaml",
-				"/examples/**/*_resource_R5.yaml"
+				"/examples/**/*_resource_R5.2022.02.22*.yaml",
+				"/examples/**/*_resource_R5*.yaml"
 			],
 			"./schemas/5.2022.02.22/example.json": [
-				"/examples/**/*_example_R5.2022.02.22.yaml",
-				"/examples/**/*_example_R5.yaml"
+				"/examples/**/*_example_R5.2022.02.22*.yaml",
+				"/examples/**/*_example_R5*.yaml"
 			]
 		},
 		"json.maxItemsComputed": 50000,

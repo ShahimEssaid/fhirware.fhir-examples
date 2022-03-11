@@ -22,13 +22,13 @@ This is the top directory for your example subdirectories.
 * Create a README.md file in your directory to document what you're demonstrating.
 * Add additional files as needed.
 * For the FHIR and schema supported files, follow the file naming pattern shown below to get the schema support. The schema support, whether for JSON or Yaml, will provide auto complete and validation to the degree the schema has that information. The current schema does not enforce all the validation described in the specification's StructureDefinitions for the various structures. 
-    * *_resource_R4.json to create an R4 FHIR resource in JSON.
-    * *_example_R4.json to create an R4 **Example** in JSON.  See what an **Example** means in the home README.md
-    * *_resoruce_R5.json same but for R5.
-    * *_example_r5.json same but for R5.
+    * *_resource_R4*.json to create an R4 FHIR resource in JSON.
+    * *_example_R4*.json to create an R4 **Example** in JSON.  See what an **Example** means in the home README.md
+    * *_resoruce_R5*.json same but for R5.
+    * *_example_r5*.json same but for R5.
 * The "R4" and "R5" parts of a file name mean the latest available schema for R4 or R5.  For R4, it is currently 4.0.1 and for R5 it is the build from 2/22/2022.  If you like to pin your files to the more specific version/date, add the following full file name suffix instead of simply R4 or R5:
-    * _R4.0.1.*
-    * _R5.2022.02.22.*
+    * _R4.0.1*.*
+    * _R5.2022.02.22*.*
 * Use the resource format to create proper FHIR resource examples that you can copy as is to post to a FHIR server.  The example format is useful for creating multiple examples in one file, giving titles and descriptions for each, exploring FHIR structures other than resources, etc.
 * If you install the "YAML ❤️ JSON" VS Code extension, you will be able to convert between Yaml and JSON. This might help with writing files in Yaml for better readability but still be able to convert to JSON to submit to a FHIR server.
 
